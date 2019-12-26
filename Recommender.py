@@ -196,6 +196,7 @@ def run(onlyModelFiles):
 if __name__ == '__main__':
     # recommend
     onlyModelFiles = [ f for f in listdir(modelFolder) if isfile(join(modelFolder,f)) ]
+    print(onlyModelFiles);
     run(onlyModelFiles);
      
     
