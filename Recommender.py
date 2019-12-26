@@ -18,7 +18,8 @@ from KItemsUnionRecommender import KItemsUnionRecommender
 dataFolder =  "data" 
 checkinsFileName = "checkins.csv"
 
-modelFolder= 'model/'
+# modelFolder= 'model/'
+modelFolder = os.path.join('model', "model-users")
 outDataFolder =  os.path.join('output/', "temp") 
 
 
